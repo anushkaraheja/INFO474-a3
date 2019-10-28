@@ -18,7 +18,7 @@
             .attr('width', measurements.width);
 
         // Load data
-        d3.csv("data/dataEveryYear.csv")
+        d3.csv("dataEveryYear.csv")
             .then((csvdata) => {
                 data = csvdata;
                 allYearsData = csvdata;
